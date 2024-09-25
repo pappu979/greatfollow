@@ -1,0 +1,23 @@
+ .guidline-row{
+   margin-top: 40px;
+    background-color: #d2e5fa;
+    text-align: center;
+}
+
+.guidline-col{
+    margin: 0 auto;
+    /* width: 50%; */
+    padding-top: 10px;
+}
+
+.guideline{
+    color: #0c305b;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.cglobalwork{
+    color: #990099;
+    font-size: 2.2rem;
+    font-weight: bold;
+} 

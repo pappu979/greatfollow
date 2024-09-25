@@ -1,0 +1,90 @@
+/* Full page container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; Full height */
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  /* Signup form */
+  .signup-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Title */
+  .signup-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid rgba(195, 218, 235, 1);
+    border-radius: 4px;
+  }
+  
+  /* Signup button styling */
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #034a74;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+
+  .already-account {
+    padding-top: 20px;
+  }
+
+  .already-account span{
+    color: #1e79e4;
+    cursor: pointer;
+  }
+
+  .already-account span:hover{
+    text-decoration: underline;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .signup-form {
+      padding: 20px;
+    }
+  
+    .signup-title {
+      font-size: 1.5em;
+    }
+  }
+  

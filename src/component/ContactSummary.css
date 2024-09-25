@@ -1,0 +1,48 @@
+/* Container styles */
+.contactsummary-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;  /* Ensures boxes stack on smaller screens */
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  /* Box styles */
+  .contactSummaty-box {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive text styles */
+   .contactSummaty-box p {
+    font-size: 1.2rem;
+    text-align: start;
+    margin-bottom: 0;
+  }
+
+  .difftent-color {
+    color: #0c305b;
+    font-weight: bold;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .contactSummaty-box {
+      flex: 1 1 100%;  /* Make each div take full width on smaller screens */
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contactSummaty-box p{
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,44 @@
+.sign-in-btn {
+    background-color: rgba(3, 74, 116, 1);
+}
+
+.fa-links{
+    color: #990099 !important;
+}
+
+.panel-list {
+    color: #1d83eb;
+    font-weight: bold;
+}
+
+.reviews{
+    color: #990099 !important;
+    font-weight: bold;
+}
+
+.panel-review{
+    color: rgba(3, 74, 116, 1);
+    font-weight: bold;
+}
+
+.pay-type {
+    color: #78889b;
+}
+
+.signin-input {
+  border-color: rgba(25, 121, 200, 0.9); /* default B5 color or set your own color*/
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.signUp {
+    color: #1e79e4;
+    font-size: 17px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.signUp:hover{
+    text-decoration: underline;
+}
+

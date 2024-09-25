@@ -1,0 +1,66 @@
+.auto-scroll-container {
+    overflow: hidden;
+    width: 80%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    position: relative;
+  }
+  
+  .services-wrapper {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    width: max-content;
+  }
+  
+  .service-box {
+    flex: 0 0 45%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 1.2em;
+    max-width: 440px;
+  }
+  
+  .service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-box ul {
+    list-style: "-";
+    padding-left: 5px;
+  }
+  
+  .service-box li {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+
+   
+  
+  /* Infinite Scroll Animation */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Ensure we show only two boxes at a time */
+  .auto-scroll-container {
+    width: 900px; /* Adjust this width to show two boxes at once */
+  }
+
+  @media (max-width: 768px) {
+    .auto-scroll-container {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  

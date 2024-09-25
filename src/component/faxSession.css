@@ -1,0 +1,74 @@
+.fax-session-container {
+    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.faxSession-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+  .fax {
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 48%;
+  }
+
+  .fax-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .fax-text {
+    flex: 1; 
+    margin-right: 10px;
+    color: #034a74;
+    font-weight: bold;
+  }
+  
+  .fax-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    color: #990099;
+  }
+  
+  .fax-content {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+
+  /* Responsive adjustments (optional) */
+  @media (max-width: 768px) {
+    .fax-text {
+      font-size: 0.9rem;
+    }
+
+    .fax {
+        display: flex;
+        flex-direction: column; 
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        width: 100%;
+      }
+  
+    .fax-icon {
+      font-size: 1rem;
+    }
+  }

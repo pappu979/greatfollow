@@ -1,0 +1,54 @@
+/* General styles */
+.ParagraphWithButton-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+  
+  .responsive-paragraph {
+    font-size: 1rem;
+    color: #0c305b;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .responsive-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #1e79e4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .responsive-button:hover {
+    background-color: #1276f0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .responsive-paragraph {
+      font-size: 1rem;
+    }
+    
+    .responsive-button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .responsive-paragraph {
+      font-size: 0.9rem;
+    }
+  
+    .responsive-button {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+  

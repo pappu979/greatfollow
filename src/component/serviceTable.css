@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .table {
+      font-size: 12px;
+    }
+  
+    .table td, .table th {
+      padding: 10px;
+    }
+  
+    .form-select, .form-control {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .table td, .table th {
+      padding: 8px;
+    }
+  
+    .btn {
+      font-size: 12px;
+    }
+  }
+  

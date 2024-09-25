@@ -1,0 +1,103 @@
+.stepsFollow-section{
+    background-color: #e5f6f7;
+    margin-top: 100px;
+}
+
+
+.steps-container {
+    background-color: #e5f6f7;
+    padding: 50px 0;
+  }
+  
+  .step-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+  }
+
+  .step-card-col {
+    position: relative;
+  }
+  
+  .step-number {
+    border: 2px solid purple;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: purple;
+    font-size: 24px;
+  }
+
+  .arrow-right {
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    right: -75px; /* Adjust based on spacing between cards */
+    transform: translateY(-50%);
+    width: 90px;
+    height: 2px;
+    background-color: purple;
+  }
+  
+  .arrow-right::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid purple;
+    border-bottom: 2px solid purple;
+    transform: rotate(-45deg);
+  }
+
+  
+  
+  /* Adjust position for even and odd step cards */
+  .step-card-col.align-self-end {
+    margin-bottom: 50px;
+  }
+  
+  .step-card-col.align-self-start {
+    margin-top: 50px;
+  }
+  
+  /* For small screens, all cards stack in a single column */
+  @media (max-width: 768px) {
+
+    .stepsFollow-section{
+      background-color: #e5f6f7;
+      margin-top: 120px;
+  }
+
+    .arrow-right {
+        display: none; /* Hide arrows on small screens */
+      }
+
+    .step-card-col {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .step-card {
+        height: 25rem;
+      }
+  
+    .step-card-col.align-self-end, 
+    .step-card-col.align-self-start {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .step-card {
+        height: auto;
+        margin-top: 20px;
+      }
+  }
+  
